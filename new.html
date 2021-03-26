@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Search</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div id="nav" >
+        <i class="fa fa-github" style="font-size:70px;color:white;position:relative; left:45px; top:2px;"></i>
+    <div class="container ">
+        <ul style="display:flex;position: relative;bottom:60px;left:80px;">
+            <li>    
+                <select>
+                    <option value="">Why Github?</option>
+                    <option value="">Mobile</option>
+                    <option value="">Actions</option>
+                    <option value="">Codespaces</option>
+                    <option value="">Packages</option>
+                    <option value="">Security</option>
+                    <option value="">Code review</option>
+                    <option value="">Project management</option>
+                    <option value="">Integrations</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="">Explore</option>
+                    <option value="">Topics</option>
+                    <option value="">Collections</option>
+                    <option value="">Trending</option>
+                    <option value="">Learning Lab</option>
+                    <option value="">Open source guides</option>
+                </select>
+            </li>
+            <li>
+                <select>
+                    <option value="">Pricing</option>
+                    <option value="">Plans</option>
+                    <option value="">Education</option>
+                    
+                </select>
+            </li>    
+            </ul>
+    </div>   
+    
+    
+    <ul style="position:initial;bottom:60px;right:80px;">
+        <li class="button">    
+            <select>
+                <option value="">Type:All</option>
+                <option value="">Sources</option>
+                <option value="">Forks</option>
+                <option value="">Archived</option>
+                <option value="">Mirrors</option>
+            </select>
+        </li>
+            <li class="button1">    
+                <select>
+                    <option value="">Languages:All</option>
+                    <option value="">All</option>
+                    <option value="">JavaScript</option>
+                    <option value="">TypeScript</option>
+                    <option value="">CSS</option>
+                    <option value="">SCSS</option>
+                    <option value="">TSQL</option>
+                    <option value="">Dart</option>
+                    <option value="">Vue</option>
+                    <option value="">HTML</option>
+                    <option value="">Python</option>
+                    <option value="">PHP</option>
+                </select>
+                </li>
+                </ul>
+                </div>
+                    <div id="text">
+                    <a style="color:black;"href="overview.html">Overview</a>
+                    <a style="color:black;"class="active" href="new.html">Repository</a>
+                    <a style="color:black;" href="project.html">Projects</a>
+                    <a style="color:black;"href="package.html">Packages</a>
+                    </div> 
+                    <div>
+        <input type="text" id="searchKey" onkeyup="filterArray()"placeholder="Find a repository" >
+          </div>
+        <div id="cardValue">
+        </div>
+    </div>
+</body>
+<script src="new.js"></script>
+</html>
